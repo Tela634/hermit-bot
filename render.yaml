@@ -23,17 +23,17 @@ services:
       - key: PREFIX
         sync: false
       - key: SUDO
-        sync: false
+        sync: true
       - key: MODE
         value: "private"
       - key: LOG_MSG
-        value: "false"
+        value: "true"
       - key: AUTO_STATUS_VIEW
-        value: "false"
+        value: "true"
       - key: READ_MSG
         value: "false"
       - key: ALWAYS_ONLINE
-        value: "false"
+        value: "true"
       - key: START_MSG
         value: "true"
       - key: PORT
