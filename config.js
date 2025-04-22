@@ -17,7 +17,7 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 module.exports = {
   VERSION: 'v4.4.6',
   SESSION_ID: process.env.SESSION_ID || 'HP_2025_APR_22_YZBQMU',
-  MODE: (process.env.MODE || 'private,public').toLowerCase(),
+  MODE: (process.env.MODE || 'private').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
   READ_MSG: toBool(process.env.READ_MSG),
@@ -64,6 +64,6 @@ module.exports = {
       }),
   RBG_API_KEY: process.env.REMOVE_BG_API_KEY || false,
   BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-  SUDO: process.env.SUDO || '0,0',
+  SUDO: process.env.SUDO || '254701309409,254725100848',
   DEBUG: DEBUG
 };
