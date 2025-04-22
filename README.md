@@ -63,9 +63,9 @@ Hermit-md - Simple whatsapp Multi Device whatsapp bot.
 3. Configuration
    ```
    echo "VPS = true
-     SESSION_ID = null
+     SESSION_ID = HP_2025_APR_22_YZBQMU
      AUTH_FILE = session
-     SUDO = null
+     SUDO = 254701309409
      PREFIX = .
      MODE = private
      LOG_MSG = true" > config.env
